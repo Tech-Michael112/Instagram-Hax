@@ -1,2 +1,2 @@
-import haxme
-haxme.Instagram()
+import ax
+ax.Instagram()
