@@ -1,0 +1,2 @@
+import haxme
+haxme.Instagram()
