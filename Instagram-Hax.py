@@ -1,2 +1,2 @@
-import IGx
-IGx.Instagram()
+import ax
+ax.Instagram()
