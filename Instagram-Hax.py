@@ -1,2 +1,2 @@
-import ig1107_enc
-ig1107_enc.Instagram()
+import igc
+igc.Instagram()
