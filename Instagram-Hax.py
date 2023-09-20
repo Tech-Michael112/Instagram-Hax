@@ -1,2 +1,2 @@
 import igc
-igs.Instagram()
+igc.Instagram()
