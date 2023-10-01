@@ -1,2 +1,2 @@
-import igc
-igc.Instagram()
+import ssn
+ssn.Instagram()
