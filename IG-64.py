@@ -1,2 +1,2 @@
-import IG
-IG.Instagram()
+import ssn
+ssn.Instagram()
