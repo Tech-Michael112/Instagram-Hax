@@ -1,2 +1,2 @@
-import IG64
-IG64.Instagram()
+import insta32
+insta32.Instagram()
