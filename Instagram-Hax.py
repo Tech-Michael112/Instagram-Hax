@@ -4,10 +4,6 @@ if bit == '64bit':
     print('\n Your device is 64 bit')
     os.system('clear')
     os.system('git pull')
-    import Instagram
-elif bit == '32bit':
-    os.system('clear')
-    os.system('git pull')
-    os.system('python F.py')
-    print(" Onky 64bit .. changing architecture...by importing F.py")
-  #(" Sorry 364 Bit only \n Wait
+    os.system('python gram1_enc.py')
+else:
+    exit(" your device is not 64 ")
