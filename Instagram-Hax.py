@@ -1,6 +1,6 @@
-
+import os 
     
 os.system('clear')
     
-s.system('git pull')
+os.system('git pull')
 import gram1
