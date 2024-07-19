@@ -16,5 +16,5 @@ def Execution():
         print(f"There's an exception!!! error {error}")
     except ImportError as e:
         
-        print(f"{error_color} dont edit the module documentation.... or author has not uploaded update yet \n{line}")
+        print(f"{error_color} dont edit the module documentation.... or author has not uploaded update yet \n!!!!!¡")
 Execution()
