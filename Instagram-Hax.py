@@ -4,7 +4,8 @@ import logging
 
 error_color=f'\33[1;91m'
 success_color=f'\033[1;32m'
-line='"_"*53'
+cod=54
+line=f'{cod}*"_"'
 
 git = 'git pull'
 def Execution():
