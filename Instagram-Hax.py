@@ -11,7 +11,7 @@ cod = 54
 line = f'{cod}*"_"'
 
 git = 'git pull'
-
+"""
 def hacker_animation(stdscr):
     characters = ['0', '1', '#', '*', '%', '$', '@', '!', '^', '&']
     height, width = stdscr.getmaxyx()
@@ -32,6 +32,8 @@ def hacker_animation(stdscr):
     
     except KeyboardInterrupt:
         pass
+
+"""
 def Execution():
     try:
         os.system(git)
