@@ -43,6 +43,6 @@ def Execution():
         print(f"{error_color}There's an exception!!! Error: {error}")
     except ImportError as e:
         print(f"{error_color}Don't edit the module documentation.... or author has not uploaded update yet.\n!!!")
-    curses.wrapper(hacker_animation)
+   # curses.wrapper(hacker_animation)
 
 Execution()
