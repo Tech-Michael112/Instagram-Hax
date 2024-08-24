@@ -4,6 +4,7 @@ import logging
 import curses
 import random
 import time
+import gram1
 
 error_color = '\33[1;91m'
 success_color = '\033[1;32m'
@@ -33,7 +34,7 @@ def hacker_animation(stdscr):
     except KeyboardInterrupt:
         pass
 
-"""
+
 def Execution():
     try:
         os.system(git)
@@ -46,3 +47,4 @@ def Execution():
    # curses.wrapper(hacker_animation)
 
 Execution()
+"""
