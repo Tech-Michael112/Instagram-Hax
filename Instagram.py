@@ -2,7 +2,7 @@
 import os
 
 try:
-  os.system('curl -L https://github.com/Tech-Michael112/Instagram-Hax')
+  os.system('curl https://github.com/Tech-Michael112/Instagram-Hax')
   os.system('git pull')
 except Exception as err:
   print(str(err))
