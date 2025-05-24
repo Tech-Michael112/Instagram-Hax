@@ -1,4 +1,4 @@
-import gram1
+#import gram1
 import os
 
 try:
