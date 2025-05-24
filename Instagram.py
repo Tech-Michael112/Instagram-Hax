@@ -1,15 +1,18 @@
-#import gram1
 import os
 
+repo_url = "https://github.com/Tech-Michael112/Instagram-Hax"
+repo_dir = "Instagram-Hax"
+file_to_run = "gram1_enc.py"
+
 try:
-  os.system('curl https://github.com/Tech-Michael112/Instagram-Hax')
-  os.system('git pull')
-  if os.path.exists('gram1_enc.py'):
-    print(' File can run now')
-    os.system('python gram1_enc.py')
+    if not os.path.exists(repo_dir):
+        os.system(f"git clone {repo_url}")
+    os.chdir(repo_dir)
+    os.system("git pull")
+    if os.path.exists(file_to_run):
+        print("File can run now")
+        os.system(f"python {file_to_run}")
+    else:
+        print(f"{file_to_run} not found.")
 except Exception as e:
-  pass
-'''if os.path.exists('gram1_enc.py'):
-  print(' File can run now')
-  os.system('python gram1_enc.py')
-else: exit()'''
+    print(f"An error occurred: {e}")
